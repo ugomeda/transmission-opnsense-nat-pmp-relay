@@ -68,5 +68,5 @@ docker run -d \
   -e OPNSENSE_ALIAS_NAME=VPN_Forwarded_Port \
   -e TRANSMISSION_URL=http://user-password@your-transmission-url/transmission \
   -e NAT_PMP_GATEWAY=10.2.0.1 \
-  localhost/nat-pmp:latest
+  ugomeda/transmission-opnsense-nat-pmp-relay:latest
 ```
